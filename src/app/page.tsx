@@ -4,12 +4,6 @@
 import { useState } from 'react'
 
 export default function Home() {
-  var [input, setInput] = useState("")
-  var [message, setMessage] = useState("名前は？")
-
-  const doChange = (event)=> {
-    setInput(event.target.value)
-  }
 
   const doClick = ()=> {
     setMessage("ハロー " + input + "!!")
